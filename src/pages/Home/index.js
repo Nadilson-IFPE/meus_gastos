@@ -1,5 +1,6 @@
 import React from "react";
 import { FlatList, StyleSheet, Text, View } from "react-native";
+import Actions from "../../components/Actions";
 import Balance from "../../components/Balance";
 import Header from "../../components/Header";
 import Movements from "../../components/Movements";
@@ -34,6 +35,8 @@ export default function Home() {
       <Header name="Nadilson" />
 
       <Balance saldo="9.250.90" gastos="-527,00" />
+
+      <Actions />
 
       <Text style={styles.title}>Últimas movimentações</Text>
 
